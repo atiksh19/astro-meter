@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <title>AstroMeter</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
-    
+    <!-- preloader -->
+    <div id="preloader">
+        <img src="resources/pl.gif" alt="pl">
+    </div>
+    <!-- preloader -->
+
+    <!-- content -->
+    <h1 id="title">AstroMeter</h1>
+    <div id="cards">
+        <!-- planet info -->
+        <div id="planetcard">
+            <img src="{src will be altered by js}" alt="img" id="planetimg">
+            <div id="info">
+                <h3 id="planet-name"></h3>
+                <div id="planet-info"></div>
+                <!-- conversion fields -->
+                <div id="calc">
+                </div>
+                <!-- conversion fields -->
+            </div>
+        </div>
+        <!-- planet info -->
+        <!-- navigation -->
+        <div id="nav">
+            <button>previous</button>
+            <button>next</button>
+        </div>
+        <!-- navigation -->
+    </div>
+    <!-- content -->
+
+    <!-- background -->
+    <img id="background" src="resources/bg.jpg" alt="img">
+    <!-- background -->
+    <script src="index.js"></script>
 </body>
 </html>

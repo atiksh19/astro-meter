@@ -1,0 +1,28 @@
+{
+    "planets": [
+        {
+            "name": "",
+            "img": "",
+            "basic-info": {
+                "discovery date": "",
+                "mass": "",
+                "orbital radius": 0,
+                "orbital period": 0
+            },
+            "years-conversion": 0,
+            "weight-conversion": 0
+        },
+        {
+            "name": "",
+            "img": "",
+            "basic-info": {
+                "discovery date": "",
+                "mass": "",
+                "orbital radius": 0,
+                "orbital period": 0
+            },
+            "years-conversion": 0,
+            "weight-conversion": 0
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+#background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(60%);
+}
+#title{
+    /* background-color: rgba(255,255,255,0.4); */
+    border-radius: 10px;
+    padding: 4px 6px;
+    font-family: nunito;
+    font-size: 3em;
+    position: fixed;
+    color: white;
+    left: 50%;
+    top: 1vh;
+    transform: translateX(-50%);
+}
+#preloader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display:grid;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transition: 0.3s linear;
+}
