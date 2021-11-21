@@ -31,7 +31,7 @@ planets = [
         "img": "resources/planets/earth.png",
         "basic-info": {
             "discovery": "n.a.",
-            "mass": "5.972 × 10^24 kg",
+            "mass": "5.972×10^24 kg",
             "orbital radius": "6371 km",
             "orbital period": "365.25 Earth days"
         },
@@ -115,8 +115,8 @@ function changePlanet(n){
     $("#planet-name").text(planets[n]["name"]);
     info = `discovery: ${planets[n]["basic-info"]["discovery"]}<br>
             mass: ${planets[n]["basic-info"]["mass"]}<br>
-            orbital radius: ${planets[n]["basic-info"]["orbital radius"]}<br>
-            orbital period: ${planets[n]["basic-info"]["orbital period"]}`
+            radius: ${planets[n]["basic-info"]["orbital radius"]}<br>
+            orbit time: ${planets[n]["basic-info"]["orbital period"]}`
     $("#planet-info").html(info);
     $("#years").val(years*(planets[n]["years-conversion"]));
     $("#weight").val(weight*(planets[n]["weight-conversion"]));

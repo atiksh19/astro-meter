@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>AstroMeter</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
 </head>
@@ -20,6 +21,7 @@
     <h1 id="title">AstroMeter</h1>
     <!-- planet info -->
     <div id="planetcard">
+        <i id="pr" class="fas fa-caret-left" onclick="prev()"></i>
         <img src="resources/planets/earth.png" alt="img" id="planetimg">
         <div id="info">
             <h3 id="planet-name"
@@ -31,15 +33,10 @@
                 your weight: <input id="weight" type="number" onblur="setVals()"> kg
             </div>
             <!-- conversion fields -->
+            <i id="nx" class="fas fa-caret-right" onclick="next()"></i>
         </div>
     </div>
     <!-- planet info -->
-    <!-- navigation -->
-    <div id="nav">
-        <button onclick="prev()">previous</button>
-        <button onclick="next()">next</button>
-    </div>
-    <!-- navigation -->
     <!-- content -->
 
     <!-- background -->
