@@ -18,27 +18,28 @@
 
     <!-- content -->
     <h1 id="title">AstroMeter</h1>
-    <div id="cards">
-        <!-- planet info -->
-        <div id="planetcard">
-            <img src="{src will be altered by js}" alt="img" id="planetimg">
-            <div id="info">
-                <h3 id="planet-name"></h3>
-                <div id="planet-info"></div>
-                <!-- conversion fields -->
-                <div id="calc">
-                </div>
-                <!-- conversion fields -->
+    <!-- planet info -->
+    <div id="planetcard">
+        <img src="resources/planets/earth.png" alt="img" id="planetimg">
+        <div id="info">
+            <h3 id="planet-name"
+            style="right: 110px;"></h3>
+            <div id="planet-info"></div>
+            <!-- conversion fields -->
+            <div id="calc">
+                your age: <input id="years" type="number" onblur="setVals()"> years<br>
+                your weight: <input id="weight" type="number" onblur="setVals()"> kg
             </div>
+            <!-- conversion fields -->
         </div>
-        <!-- planet info -->
-        <!-- navigation -->
-        <div id="nav">
-            <button>previous</button>
-            <button>next</button>
-        </div>
-        <!-- navigation -->
     </div>
+    <!-- planet info -->
+    <!-- navigation -->
+    <div id="nav">
+        <button onclick="prev()">previous</button>
+        <button onclick="next()">next</button>
+    </div>
+    <!-- navigation -->
     <!-- content -->
 
     <!-- background -->

@@ -13,7 +13,7 @@
     border-radius: 10px;
     padding: 4px 6px;
     font-family: nunito;
-    font-size: 3em;
+    font-size: 8vh;
     position: fixed;
     color: white;
     left: 50%;
@@ -27,9 +27,38 @@
     right: 0;
     bottom: 0;
     display:grid;
-    background: white;
+    background:silver;
     justify-content: center;
     align-items: center;
     z-index: 1;
     transition: 0.3s linear;
+}
+#planetcard{
+    display: flex;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20vh;
+    height: 70vh;
+    width: auto;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+#info{
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    display: inline-block;
+    width: 20vw;
+    margin: 1rem;
+    height: 70%;
+    text-align: center;
+}
+#planetimg{
+    object-fit: cover;
+    height: 100%;
+    display: inline-block;
 }
